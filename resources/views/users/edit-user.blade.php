@@ -7,7 +7,7 @@
             <div class="card mb-4 mx-4">
                 <div class="card-header pb-0">
                     <div class="d-flex align-items-center">
-                        <p class="mb-0">Edit User ({{ $user->name }})</p>
+                        <h5 class="mb-0">Edit User ({{ $user->name }})</h5>
                         <a href="{{ route('user-management') }}" class="btn btn-secondary btn-sm ms-auto">Back</a>
                     </div>
                 </div>
